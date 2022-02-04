@@ -1,0 +1,303 @@
+div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    height: 1cm;
+}
+
+    
+    
+
+body{
+    width: 100%;
+    margin: 0%;
+}
+ .header{
+    height: 1cm;
+    width: 200px;
+     display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background: black;
+    
+ }
+ div.header button{
+     background: transparent;
+     width: 100px;
+     height: 1cm;
+     color: ghostwhite;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    
+
+ }
+ div img{
+     height:100%;
+     width: 100%;
+     object-fit:cover;
+
+
+ }
+ div#pic{
+     width: 100%;
+     height: 550px;
+     display: flex;
+     color: floralwhite;  
+     position: relative;
+     pointer-events: none;
+      }
+ div.one{
+    font-size: 120px;
+    font-family:"Parchment";
+    position: absolute;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 200px;
+    left: 50px;
+    letter-spacing: 1px;
+    width: fit-content;
+
+}
+div.tag{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 250px;
+    font-family: 'Courier New', Courier, monospace;
+    width: fit-content;
+    line-height: 120%;
+    
+}
+div.pic button{
+    width: fit-content;
+    height: 1cm;
+    color:whitesmoke;
+    position: absolute;
+    left: 30px;
+    top: 280px;
+    background: transparent;
+    border-color: white;
+    
+}
+div#new{
+    width: 100%;
+    height: 700px;
+    display: flex;align-items: center;justify-content: space-around;
+    
+}
+div.box1{
+    width: 250px;
+    height: 350px;
+    color: whitesmoke;
+    position: relative;
+    justify-content: space-around;
+    border-radius: 10px;
+    border:rgb(7, 7, 7) 5px double;
+
+}
+div.box1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 100%;    
+
+}
+div.box1 h1{
+    font-family: "Parchment";
+    position: absolute;
+    margin-top: 20px;
+    padding-right: 10px;
+    font-size: 60px;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+div#new button{
+    border-color: rgb(10, 7, 3);
+    position: absolute;
+    margin-top: 280px;
+    background: center;
+    color: rgb(252, 246, 246);
+    left: 80px;
+    height: 1cm;
+    background-color:black;
+    border-color: blanchedalmond;
+}
+div.box1 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: left;
+    padding-left:10px ;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 100px;
+}
+div.box2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 100%;    
+
+}
+div.box2{
+    width: 250px;
+    height: 350px;
+    background-color: black;
+    color:whitesmoke;
+    position: relative;
+    justify-content: space-around;
+    border-radius: 10px;
+    border:rgb(7, 7, 7) 5px double;
+}
+div.box2 h1{
+    font-family: "Parchment";
+    position: absolute;
+    margin-top: 20px;
+    padding-right: 20px;
+    font-size: 60px;
+    align-items: center;
+
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+div.box2 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: left;
+    padding-left:10px ;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 100px
+}
+div.box3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 100%;    
+
+}
+div.box3{
+    width: 250px;
+    height: 350px;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: space-around;
+    position: relative;
+    border-radius: 10px;
+    border:rgb(7, 7, 7) 5px double;
+}
+div.box3 h1{
+    font-family: "Parchment";
+    line-height: 50%;
+    position: absolute;
+    margin-top: 30px;
+    padding-right: 20px;
+    font-weight: bold;
+
+    font-size: 60px;
+    align-items: center;
+    letter-spacing: 2px;
+}
+div.box3 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: left;
+    padding-left:20px ;
+    position: absolute;
+    font-weight: bold;
+    margin-top: 110px
+}
+div.box3 button{
+    width: 100px;
+}
+div#footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+   
+    
+
+}
+div.foot1{
+    font-family: "Parchment";
+    font-size: 60px;
+    color: peachpuff;
+    padding-left: 50px;
+    padding-top: 40px;
+    width: min-content;
+    cursor: pointer;
+    
+}
+div.foot2 h4{
+     font-family: 'Courier New', Courier, monospace;
+     color: whitesmoke;
+     letter-spacing: 2px;
+     padding-top: 10px;
+     text-align: center;
+     text-decoration: underline;
+     position: relative;
+     padding-right: 10px;
+     font-weight: bold;
+     justify-content: center;
+     
+}
+div.foot2 p{
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    position: absolute;
+    padding-top: 50px;
+    padding-right: 23px;
+    text-decoration: underline;
+    justify-content: center;
+    line-height: 200%;
+}
+div.foot3 h4{
+    font-family:'Courier New', Courier, monospace;
+    color: whitesmoke;
+     letter-spacing: 2px;
+     padding-top: 10px;
+     text-align: center;
+     text-decoration: underline;
+     position: relative;
+     padding-right:80px;
+     justify-content: center;
+     font-weight: bold;
+     
+}
+div.foot3 p{
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    position: absolute;
+    justify-content: center;
+    padding-right:80px;
+    padding-top: 50px;
+    text-decoration: underline;
+    line-height: 200%;
+}
+a:hover{
+    color:yellow;
+}
+a:link{
+    color: whitesmoke;
+}
+a:visited{
+    color: whitesmoke;
+}
+div.foot4 p{
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    position: absolute;
+    padding-top: 50px;
+    text-decoration: none;
+    padding-right: 23px;
+    line-height: 200%;
+}
